@@ -1,0 +1,178 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header, 
+.part1,
+.footer{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 160px;
+}
+
+.links{
+    display: flex;
+    gap: 32px;
+    margin-right: 100px;
+}
+
+.image1{
+    width: 200px;
+    margin-right: 214px;
+}
+
+.part1{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left{
+    margin-left: 160px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image2{
+    height: 200px;
+    max-width: 300px;
+}
+
+.info{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    gap: 48px;   
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.part3{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 20px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.author{
+    text-align: right;
+    margin-right: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.blue-area{
+    background-color: #3882F6;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    border: 20px;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.read-now2,
+.read-now1{
+    align-self: center;
+    height: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.read-now2{
+    border-color: #F9FAF8;
+}
+
+.read-now2:hover,
+.read-now1:hover{
+    background-color: #1F2937;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.ad{
+    color: #F9FAF8;
+    text-align: left;
+    padding-left: 100px;
+    font-size: 16px;
+}
+
+.ad p{
+    margin-top: -30px;
+}
+
+.footer{
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 24px;
+    padding: 16px;
+}
